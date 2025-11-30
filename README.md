@@ -16,7 +16,7 @@ I also added proprietary print functions that write directly to the VGA buffer, 
 
 **HOW TO RUN THIS OS** (premade ISO, with the pseudo-intro.):
 1. Install QEMU, specfically the x86 emulator one (There are a lot of guides on this, don't be lazy, look it up.)
-2. Download the repo [here](https://github.com/nideraanth/SampaguitaOS/releases/tag/versionVGA) and put it into a folder called ```SampaguitaOS``` (to be sure) and copy all the repo files into the folder.
+2. Download the prebuilt ISO [here](https://github.com/nideraanth/SampaguitaOS/releases/tag/versionVGA) and put it into a folder called ```SampaguitaOS``` (to be sure) and copy all the repo files into the folder.
 3. Use ```qemu-system-i386 -cdrom SampaguitaOS.iso``` in the ```SampaguitaOS``` directory.
 
 
