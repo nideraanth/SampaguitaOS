@@ -5,9 +5,12 @@ SampaguitaOS is under active development and is intended solely for educational 
 
 QUALITY DISCLAIMER: This operating system is a **work-in-progress**, learning project. 
 
-As such, it is not guaranteed to be **STABLE**,    NO WARRANTY: This software is provided "as-is," without any warranty, express or implied. The author(s) are not responsible for any damage, loss of 
-**PERFORMANT**, or possess any certain level of    data, or corruption to hardware or software that may occur from compiling, running, or testing this OS. 
+As such, it is not guaranteed to be **STABLE**,   
+**PERFORMANT**, or possess any certain level of    
 **QUALITY**, **RELIABILITY**, or **SECURITY**. 
 Features are incomplete, and bugs are expected.
 
+ NO WARRANTY: This software is provided "as-is," without any warranty, express or implied. The author(s) are not responsible for any damage, loss of 
+ data, or corruption to hardware or software that may occur from compiling, running, or testing this OS. 
+ 
 Testing Safety: IT IS HIGHLY RECOMENDED THAT YOU ONLY TEST THIS OS WITHIN VIRTUAL MACHINES (like QEMU) OR ON DEDICATED, NON-ESSENTIAL HARDWARE.
