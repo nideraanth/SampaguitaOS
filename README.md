@@ -21,12 +21,14 @@ How to run this OS (assuming you are using a debian-based Linux distribution or 
 4. Run the upd.sh in the newly created ```SampaguitaOS``` folder.
 5. Use ```qemu-system-i386 -cdrom SampaguitaOS.iso``` in the ```SampaguitaOS``` directory. 
 
+
+
   Copyright (C) [2025] [Ronald A. N. Nidera]
  
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
   the Free Software Foundation, either version 3 of the License, or
-  (at your option) any later version.
+  any later version.
  
   This program is distributed in the hope that it will be useful,
   but WITHOUT ANY WARRANTY; without even the implied warranty of
