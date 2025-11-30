@@ -14,14 +14,26 @@ I also added proprietary print functions that write directly to the VGA buffer, 
 ```Term_IO_WriteInt(123);```
 ```Term_IO_WriteHex(0xDEADBEEF);```
 
+How to run this OS (assuming you are using a debian-based Linux distribution):
+1. Install QEMU (There are a lot of guides on this, don't be lazy, look it up.)
+2. Install a cross compiler. **NOTE:** if you skip this step, the OS woudn't compile at all.
+3. Download the repo and put it into a folder called ```SampaguitaOS``` (to be sure) and copy all the repo files into the folder.
+4. Run the upd.sh in the newly created ```SampaguitaOS``` folder.
+5. Use ```qemu-system-i386 -cdrom SampaguitaOS.iso``` in the ```SampaguitaOS``` directory. 
 
-
-This OS is not guaranteed to be **STABLE**,   
-**PERFORMANT**, or possess any certain level of    
-**QUALITY**, **RELIABILITY**, or **SECURITY**. 
-Features are incomplete, and bugs are expected.
-
- NO WARRANTY: This software is provided "as-is," without any warranty, express or implied. The author is not responsible for any damage, loss of 
- data, or corruption to hardware or software that may occur from compiling, running, or testing this OS. 
+  Copyright (C) [2025] [Ronald A. N. Nidera]
+ 
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+ 
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU General Public License for more details.
+ 
+   You should have received a copy of the GNU General Public License
+   along with this program. If not, see [http://www.gnu.org/licenses/](http://www.gnu.org/licenses/).
  
 Testing Safety: IT IS HIGHLY RECOMENDED THAT YOU ONLY TEST THIS OS WITHIN VIRTUAL MACHINES (like QEMU) OR ON DEDICATED, NON-ESSENTIAL HARDWARE.
