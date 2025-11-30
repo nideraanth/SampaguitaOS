@@ -3,7 +3,8 @@ SampaguitaOS is a hobby 32-bit operating system kernel, written primarily in C a
 
 SampaguitaOS is under active development and is intended solely for educational purposes and learning.
 
-QUALITY DISCLAIMER: This operating system is a work-in-progress, learning project. As such, it is not guaranteed to be stable, performant, or possess any certain level of quality, reliability, or security. Features are incomplete, and bugs are expected.
+QUALITY DISCLAIMER: This operating system is a **work-in-progress**, learning project. 
+As such, it is not guaranteed to be **STABLE**, **PERFORMANT**, or possess any certain level of **QUALITY**, **RELIABILITY**, or **SECURITY**. Features are incomplete, and bugs are expected.
 
 NO WARRANTY: This software is provided "as-is," without any warranty, express or implied. The author(s) are not responsible for any damage, loss of data, or corruption to hardware or software that may occur from compiling, running, or testing this OS.
 
