@@ -8,10 +8,13 @@ QUALITY DISCLAIMER: This operating system is a **WORK IN PROGRESS**, learning pr
 This is meant to demonstrate the capabilities of my OS,
 such as text coloring, hexadecimal, integer, and string direct VGA buffer writing, meaning when you do a ```Term_IO_Write**()```; , it writes directly to the screen.
 
-I also added proprietary print functions that write directly to the VGA buffer, such as:
+I also added proprietary print functions that write directly to the VGA buffer, examples include:
+
 ```Term_IO_WriteStr("");```
 ```Term_IO_WriteInt(123);```
 ```Term_IO_WriteHex(0xDEADBEEF);```
+
+
 
 This OS is not guaranteed to be **STABLE**,   
 **PERFORMANT**, or possess any certain level of    
