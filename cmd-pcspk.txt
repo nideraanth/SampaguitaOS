@@ -1,0 +1,2 @@
+# Now run QEMU without sudo from your home directory
+qemu-system-x86_64 -audiodev pa,id=snd0 -machine pcspk-audiodev=snd0 -cdrom SampaguitaOS.iso
