@@ -7,4 +7,4 @@ QUALITY DISCLAIMER: This operating system is a work-in-progress, learning projec
 
 NO WARRANTY: This software is provided "as-is," without any warranty, express or implied. The author(s) are not responsible for any damage, loss of data, or corruption to hardware or software that may occur from compiling, running, or testing this OS.
 
-Testing Safety: It is highly recommended that you only test this OS within virtual machines (like QEMU) or on dedicated, non-essential physical hardware. Never test on a production machine containing valuable data.
+Testing Safety: IT IS HIGHLY RECOMENDED THAT YOU ONLY TEST THIS OS WITHIN VIRTUAL MACHINES (like QEMU) OR ON DEDICATED, NON-ESSENTIAL HARDWARE.
