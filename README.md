@@ -14,7 +14,7 @@ I also added proprietary print functions that write directly to the VGA buffer, 
 ```Term_IO_WriteInt(123);```
 ```Term_IO_WriteHex(0xDEADBEEF);```
 
-How to run this OS (assuming you are using a debian-based Linux distribution):
+How to run this OS (assuming you are using a debian-based Linux distribution or Windows Subsystem for Linux (WSL) ):
 1. Install QEMU (There are a lot of guides on this, don't be lazy, look it up.)
 2. Install a cross compiler. **NOTE:** if you skip this step, the OS woudn't compile at all.
 3. Download the repo and put it into a folder called ```SampaguitaOS``` (to be sure) and copy all the repo files into the folder.
