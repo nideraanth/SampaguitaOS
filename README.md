@@ -14,12 +14,19 @@ I also added proprietary print functions that write directly to the VGA buffer, 
 ```Term_IO_WriteInt(123);```
 ```Term_IO_WriteHex(0xDEADBEEF);```
 
-How to run this OS (assuming you are using a debian-based Linux distribution or Windows Subsystem for Linux (WSL) ):
+How to run this OS:
+1. Install QEMU, specfically the x86 emulator one (There are a lot of guides on this, don't be lazy, look it up.)
+2. Download the repo and put it into a folder called ```SampaguitaOS``` (to be sure) and copy all the repo files into the folder.
+3. Use ```qemu-system-i386 -cdrom SampaguitaOS.iso``` in the ```SampaguitaOS``` directory.
+
+
+How to run and modify this OS (assuming you are using a Linux distribution or Windows Subsystem for Linux (WSL) ):
 1. Install QEMU (There are a lot of guides on this, don't be lazy, look it up.)
 2. Install a cross compiler. **NOTE:** if you skip this step, the OS woudn't compile at all.
 3. Download the repo and put it into a folder called ```SampaguitaOS``` (to be sure) and copy all the repo files into the folder.
-4. Run the upd.sh in the newly created ```SampaguitaOS``` folder.
-5. Use ```qemu-system-i386 -cdrom SampaguitaOS.iso``` in the ```SampaguitaOS``` directory. 
+4. Make any changes you like.
+5. Run the upd.sh in the newly created ```SampaguitaOS``` folder (**NOTE:** DO this every time you update the OS.)
+6. Use ```qemu-system-i386 -cdrom SampaguitaOS.iso``` in the ```SampaguitaOS``` directory.
 
 
 
