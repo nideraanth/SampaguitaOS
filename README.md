@@ -1,7 +1,7 @@
 # SampaguitaOS
 SampaguitaOS is a hobby 32-bit operating system kernel, written primarily in C and Assembly, targeting the x86 architecture. The project is focused on learning the fundamentals of bare-metal development, boot protocols (Multiboot 1), kernel architecture, and device driver implementation.
 
-SampaguitaOS is under active development and is intended solely for educational purposes and learning.
+SampaguitaOS is under active development and is intended solely for recreational programming and learning.
 
 QUALITY DISCLAIMER: This operating system is a work-in-progress, learning project. As such, it is not guaranteed to be stable, performant, or possess any certain level of quality, reliability, or security. Features are incomplete, and bugs are expected.
 
